@@ -28,8 +28,10 @@ if (args.rules || args.r) {
     process.exit(0);
 }
 
+//get user shot
 let shot = args._[0];
 
+//get result
 let result = rps(shot);
 
 //out of range error

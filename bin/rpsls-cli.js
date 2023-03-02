@@ -34,9 +34,10 @@ if (args.rules || args.r) {
   - Rock CRUSHES Scissors`)
     process.exit(0);
 }
-
+//USER SHOT
 let shot = args._[0];
 
+//GAME RESULT
 let result = rpsls(shot);
 
 //out of range error
