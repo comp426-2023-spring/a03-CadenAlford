@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import minimist from "minimist";
-import { rps } from "../lib/rpsls.js";
+import {rps} from "../lib/rpsls.js";
 
 const args = minimist(process.argv.slice(2));
 
@@ -35,7 +35,7 @@ let result = rps(shot);
 //out of range error
 if (result === 'error') {
     console.error(`${shot} is out of range.`);
-    
+
 //help and rules
     console.log('Usage: node-rps [SHOT]');
     console.log('Play Rock Paper Scissors (RPS)\n');
